@@ -108,8 +108,8 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default">
-  <div class="quarto-title-banner">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Creando presentaciones con el theme latinR</h1>
                       </div>
@@ -130,24 +130,26 @@ ul.task-list li input[type="checkbox"] {
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
+    
 <!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 <section id="el-theme-latinr" class="level4">
-<h4 data-anchor-id="el-theme-latinr">El theme latinR</h4>
+<h4 class="anchored" data-anchor-id="el-theme-latinr">El theme latinR</h4>
 <p>Es un placer compartir el nuevo theme de xaringan <strong>latinR</strong>. El theme latinR permite crear presentaciones usando el paquete de R xaringan, con un estilo particular para esta conferencia.</p>
 </section>
 <section id="instalación" class="level4">
-<h4 data-anchor-id="instalación">Instalación</h4>
+<h4 class="anchored" data-anchor-id="instalación">Instalación</h4>
 <p>Para utilizar el theme latinR, primero asegúrate de tener instalado el paquete <a href="https://cran.r-project.org/web/packages/xaringan/index.html">xaringan</a>; además, necesitarás descargar el archivo <a href="https://github.com/LatinR/xaringan_latinR/blob/master/latinR.css">latinR.css</a> desde nuestro <a href="https://github.com/LatinR/xaringan_latinR">repositorio</a> de GitHub.</p>
 </section>
 <section id="generando-una-nueva-presentación" class="level4">
-<h4 data-anchor-id="generando-una-nueva-presentación">Generando una nueva presentación</h4>
+<h4 class="anchored" data-anchor-id="generando-una-nueva-presentación">Generando una nueva presentación</h4>
 <p>Ahora, genera una nueva presentación de xaringan en tu sesión de R o RStudio desde:</p>
 <p>File &gt; New File &gt; R Markdown &gt; From Template &gt; Ninja Presentation</p>
 <p>Coloca el archivo latinR.css en la misma ubicación que tu archivo .Rmd de la presentación.</p>
@@ -161,12 +163,12 @@ output:
 ---</code></pre>
 </section>
 <section id="usando-el-template.rmd" class="level4">
-<h4 data-anchor-id="usando-el-template.rmd">Usando el template.Rmd</h4>
+<h4 class="anchored" data-anchor-id="usando-el-template.rmd">Usando el template.Rmd</h4>
 <p>Si lo deseas, puedes usar el <a href="https://github.com/LatinR/xaringan_latinR/blob/master/template.Rmd">template</a> de presentación de LatinR, disponible en nuestro <a href="https://github.com/LatinR/xaringan_latinR">repositorio</a> de GitHub.</p>
 <p>Para visualizar la presentación, puedes utilizar la función inf_mr() del paquete xaringan o utilizar el botón Knit de RStudio.</p>
 </section>
 <section id="diapositivas-del-theme-latinr" class="level4">
-<h4 data-anchor-id="diapositivas-del-theme-latinr">Diapositivas del theme latinR</h4>
+<h4 class="anchored" data-anchor-id="diapositivas-del-theme-latinr">Diapositivas del theme latinR</h4>
 <p>El theme latinR incluye una diapositiva de título:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -201,14 +203,14 @@ output:
 <p><br></p>
 </section>
 <section id="texto-alternativo" class="level4">
-<h4 data-anchor-id="texto-alternativo">Texto Alternativo</h4>
+<h4 class="anchored" data-anchor-id="texto-alternativo">Texto Alternativo</h4>
 <p>Adicionalmente, te animamos a utilizar el texto alternativo para describir el contenido de las imágenes en la presentación. Si estás usando nuestro template o cualquier archivo .Rmd, puedes utilizar la opción fig.alt del chunk de R.</p>
 <p>Puedes ver una presentación ejemplo generada con xaringan y el theme latinR en el siguiente <a href="https://latinr.github.io/xaringan_latinR/template.html">link</a></p>
 
 
 </section>
 
-
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

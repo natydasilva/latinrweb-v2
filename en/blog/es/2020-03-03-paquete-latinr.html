@@ -108,8 +108,8 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default">
-  <div class="quarto-title-banner">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Paquete latinr para crear y enviar trabajos a LatinR</h1>
                       </div>
@@ -130,22 +130,24 @@ ul.task-list li input[type="checkbox"] {
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
+    
 <!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 <section id="presentando-latinr-el-paquete" class="level4">
-<h4 data-anchor-id="presentando-latinr-el-paquete">Presentando: latinr, el paquete</h4>
+<h4 class="anchored" data-anchor-id="presentando-latinr-el-paquete">Presentando: latinr, el paquete</h4>
 <p>En esta edición de LatinR estrenamos una nueva forma de enviar trabajos enteramente desde la sesión de R!</p>
 <p>La idea es facilitar lo más posible todo el proceso de creación, formato y envío de trabajos. Con el paquete latinr podrán escribir la presentación con R Markdown agregando los detalles en el header, compilar a PDF usando el estilo de la conferencia y enviarlo sin tener que llenar ningún formulario.</p>
 <p>Es importante aclarar que usar el paquete no es obligatorio en absoluto. Quien no se sienta cómode con R Markdown puede usar cualquier herramienta que quiera para crear su PDF y quien prefiera usar la inferfaz web de EasyChair, puede hacerlo sin problema.</p>
 <p>Una segunda aclaración es que el envío de trabajos mediante el paquete todavía es un poco experimental, por lo que les pedimos que si lo usan, vayan a la web para cerciorarse de que todo haya salido correctamente.</p>
 <section id="cómo-usar-latinr-para-crear-trabajos-a-latinr" class="level5">
-<h5 data-anchor-id="cómo-usar-latinr-para-crear-trabajos-a-latinr">Cómo usar latinr para crear trabajos a LatinR</h5>
+<h5 class="anchored" data-anchor-id="cómo-usar-latinr-para-crear-trabajos-a-latinr">Cómo usar latinr para crear trabajos a LatinR</h5>
 <p>Lo primero de todo es, por supuesto, instalar el paquete. Esto pueden hacerlo con el comando <code>devtools::install_github("latinr/latinr")</code>.</p>
 <p>Si usan RStudio, pueden ir a Archivo -&gt; Nuevo Archivo -&gt; R Markdown -&gt; Desde Plantilla y ahí seleccionar “LatinR submission article”. Ahí ponen el nombre de su presentación y la carpeta dónde quieren crearla y al darle OK se les creará un archivo base que pueden empezar a completar.</p>
 <p>Van a ver que todos los datos de envío van en el encabezado del archivo. Pueden llenarlos a mano pero más fácil es usar el “wizard” con la funcion <code>latinr::latinr_wizard()</code>. Eso les ve a llevar a una interfaz gráfica donde pueden llenar sus datos y que al final les va a mostrar un encabezado yaml válido para copiar y pegar en su archivo.</p>
@@ -165,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 <p>El primer chunk del documento chequea que la metadata esté más o menos correcta cada vez que se renderiza el archivo. Recomendamos no editarlo para que cualquier error salga a la luz lo antes posible. El resto es el documento de R Markdown de prueba. Pueden tratar de “knitear” este archivo de prueba para estar seguro que su instalación de LaTeX está en orden y luego comenzar a preparar su presentación para LatinR!</p>
 </section>
 <section id="cómo-enviar-el-artículo" class="level5">
-<h5 data-anchor-id="cómo-enviar-el-artículo">Cómo enviar el artículo</h5>
+<h5 class="anchored" data-anchor-id="cómo-enviar-el-artículo">Cómo enviar el artículo</h5>
 <p>Hasta acá latinr les permite crear un PDF con la plantilla de la conferencia y correctamente anonimizado para el envío. Pueden enviar ese PDF manualmente entrando a la página de <a href="http://bit.ly/latinr2020-easychair">EasyChair</a>, pero si quieren, pueden hacerlo usando latinr.</p>
 <p>En cualquier caso, van a tener que <a href="https://easychair.org/account/signup">hacerse una cuenta en EasyChair</a>. Luego, tienen la opción de guardar sus datos de cuenta <code>latinr::latinr_password_set()</code>, que les va a pedir su usuario y su contraseña. Esto no es obligatorio pero facilita las cosas. Es posible que necesiten instalar el paquete keyring, en cuyo caso, les saldrá un error informativo.</p>
 <p>Finalmente el envío se realiza con <code>latinr::latinr_submit()</code>. Por default se fija si hay un único archivo con extensión .Rmd en su directorio de trabajo y, si así es, lo toma como el archivo a enviar. Luego, les muestra los detalles del envío para asegurarse de que esté todo bien, luego renderiza y muestra el archivo PDF para también asegurarse de que haya renderizado correctamente y finalmente hace el envío.</p>
@@ -173,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Como dijimos antes, este proceso es relativamente experimental y la integración con formularios web es siempre complicada. Por eso, es <strong>muy importante</strong> ir a la página de EasyChair para chequear una última vez que todos los datos se hayan cargado correctamente y que el archivo haya sido subido bien. En caso de que haya algún problema, pueden corregirlo manualmente en la página.</p>
 </section>
 <section id="absolutamente-opcional" class="level5">
-<h5 data-anchor-id="absolutamente-opcional">Absolutamente opcional</h5>
+<h5 class="anchored" data-anchor-id="absolutamente-opcional">Absolutamente opcional</h5>
 <p>Cada parte de todo este proceso es completamente opcional. Pueden usar latinr para crear y enviar su trabajo, sólo para crearlo, sólo para enviarlo o no usarlo en absoluto. ¡Hagan lo que les haga sentir más cómodes!</p>
 <p>Pero si usan latinr y encuentran algún problema o tienen alguna sugerencia, ¡no duden en contactarnos! La mejor forma es <a href="https://github.com/LatinR/latinr/issues">abriendo un issue en el repositorio en GitHub</a> o mandando un mensaje en nuestro <a href="http://bit.ly/latinr_slack">Slack</a>, o pueden enviarle un mail al maintainer del paquete usando <code>packageDescription("latinr")$Maintainer</code>. Todo este proceso es nuevo para nosotros también y ojalá que con la comunidad podamos mejorarlo aún más!</p>
 
@@ -181,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
