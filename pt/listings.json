@@ -1,12 +1,7 @@
 [
   {
-    "listing": "/blog/index.html",
+    "listing": "/blog/en/index.html",
     "items": [
-      "/blog/pt/2023-04-24-submissao-de-trabalhos-2023.html",
-      "/blog/pt/2022-06-15-submissao-de-trabalhos-2022.html",
-      "/blog/pt/2020-02-28-otras-conferencias-pt.html",
-      "/blog/pt/2020-01-13-chamada-trabalhos.html",
-      "/blog/pt/2018-01-15-cdc-pt.html",
       "/blog/en/2023-04-24-submissions-2023.html",
       "/blog/en/2020-10-26-reprohack-en.html",
       "/blog/en/2020-07-08-communities.html",
@@ -17,7 +12,12 @@
       "/blog/en/2019-12-16-call-for-papers.html",
       "/blog/en/2018-07-27-coc-slack.html",
       "/blog/en/2018-01-15-coc.html",
-      "/blog/en/2018-01-18-attibutions.html",
+      "/blog/en/2018-01-18-attibutions.html"
+    ]
+  },
+  {
+    "listing": "/blog/es/index.html",
+    "items": [
       "/blog/es/2023-04-24-presentacion-trabajos-2023.html",
       "/blog/es/2022-06-15-presentacion-trabajos-2022.html",
       "/blog/es/2021-10-01-xaringantheme-latinR.html",
@@ -31,6 +31,16 @@
       "/blog/es/2018-07-27-cdc-slack.html",
       "/blog/es/2018-01-15-cdc.html",
       "/blog/es/2018-01-18-atribuciones.html"
+    ]
+  },
+  {
+    "listing": "/blog/pt/index.html",
+    "items": [
+      "/blog/pt/2023-04-24-submissao-de-trabalhos-2023.html",
+      "/blog/pt/2022-06-15-submissao-de-trabalhos-2022.html",
+      "/blog/pt/2020-02-28-otras-conferencias-pt.html",
+      "/blog/pt/2020-01-13-chamada-trabalhos.html",
+      "/blog/pt/2018-01-15-cdc-pt.html"
     ]
   },
   {
