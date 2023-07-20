@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/sobre/apoyo/index.html",
-    "items": []
-  },
-  {
     "listing": "/blog/en/index.html",
     "items": [
       "/blog/en/2023-06-08-inscriptionen.html",
@@ -52,5 +48,9 @@
       "/blog/es/2018-01-15-cdc.html",
       "/blog/es/2018-01-18-atribuciones.html"
     ]
+  },
+  {
+    "listing": "/sobre/apoyo/index.html",
+    "items": []
   }
 ]
