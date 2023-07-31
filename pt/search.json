@@ -46,7 +46,7 @@
     "href": "cronograma/tutoriales/workshops.html#creación-de-reportes-reproducibles-con-quarto",
     "title": "Workshops",
     "section": "Creación de reportes reproducibles con Quarto",
-    "text": "Creación de reportes reproducibles con Quarto\nInstructor: Riva Quiroga\nDate and time: 18/10 - 13:30 - 17:00\nLanguage: Español\nDescription: To be annouced"
+    "text": "Creación de reportes reproducibles con Quarto\nInstructor: Riva Quiroga\nDate and time: 18/10 - 13:30 - 17:00\nLanguage: Español\nDescription: En este tutorial se hará una introducción a Quarto, un sistema de publicación científica y técnica que permite crear contenido dinámico usando R, Python, Julia y Observable. Durante la sesión se abordarán los aspectos generales de su uso para crear reportes con R, con especial énfasis en el trabajo en formato HTML. Para ello, se mostrará paso a paso cómo crear un reporte reproducible, cómo parametrizar su contenido, cómo editar su apariencia y cómo publicarlo utilizando GitHub Pages y Netlify.\nPara poder seguir sin problema las actividades del tutorial, es necesario tener algún grado de experiencia con el operador “pipe” (en cualquiera de sus dos versiones: %&gt;% o |&gt;), con las funciones principales del paquete dplyr (como filter, summarize y group_by) y con el paquete ggplot2 (por ejemplo, tener una idea general de qué hacen las funciones geom_* o saber cómo modificar la escala del eje “y” de un gráfico). Para quienes tengan interés en la publicación de un reporte utilizando el servicio GitHub Pages, es necesario tener al menos un manejo inicial de git (saber cómo hacer commits y enviar cambios a un repositorio personal)."
   },
   {
     "objectID": "cronograma/tutoriales/workshops.html#introducción-a-shiny",
@@ -459,7 +459,7 @@
     "href": "cronograma/tutoriales/index.html#creación-de-reportes-reproducibles-con-quarto",
     "title": "Tutoriales",
     "section": "Creación de reportes reproducibles con Quarto",
-    "text": "Creación de reportes reproducibles con Quarto\nInstructora: Riva Quiroga\nFecha y hora: 18/10 - 13:30 - 17:00\nIdioma: Español\nDescripción: En breve"
+    "text": "Creación de reportes reproducibles con Quarto\nInstructora: Riva Quiroga\nFecha y hora: 18/10 - 13:30 - 17:00\nIdioma: Español\nDescripción: En este tutorial se hará una introducción a Quarto, un sistema de publicación científica y técnica que permite crear contenido dinámico usando R, Python, Julia y Observable. Durante la sesión se abordarán los aspectos generales de su uso para crear reportes con R, con especial énfasis en el trabajo en formato HTML. Para ello, se mostrará paso a paso cómo crear un reporte reproducible, cómo parametrizar su contenido, cómo editar su apariencia y cómo publicarlo utilizando GitHub Pages y Netlify.\nPara poder seguir sin problema las actividades del tutorial, es necesario tener algún grado de experiencia con el operador “pipe” (en cualquiera de sus dos versiones: %&gt;% o |&gt;), con las funciones principales del paquete dplyr (como filter, summarize y group_by) y con el paquete ggplot2 (por ejemplo, tener una idea general de qué hacen las funciones geom_* o saber cómo modificar la escala del eje “y” de un gráfico). Para quienes tengan interés en la publicación de un reporte utilizando el servicio GitHub Pages, es necesario tener al menos un manejo inicial de git (saber cómo hacer commits y enviar cambios a un repositorio personal)."
   },
   {
     "objectID": "cronograma/tutoriales/index.html#introducción-a-shiny",
@@ -501,7 +501,7 @@
     "href": "cronograma/tutoriales/workshops-pt.html#creación-de-reportes-reproducibles-con-quarto",
     "title": "Workshops",
     "section": "Creación de reportes reproducibles con Quarto",
-    "text": "Creación de reportes reproducibles con Quarto\nInstrutora: Riva Quiroga\nData e horário: 18/10 - 13:30 - 17:00\nIdioma: Español\nDescrição: Em breve"
+    "text": "Creación de reportes reproducibles con Quarto\nInstrutora: Riva Quiroga\nData e horário: 18/10 - 13:30 - 17:00\nIdioma: Español\nDescrição: En este tutorial se hará una introducción a Quarto, un sistema de publicación científica y técnica que permite crear contenido dinámico usando R, Python, Julia y Observable. Durante la sesión se abordarán los aspectos generales de su uso para crear reportes con R, con especial énfasis en el trabajo en formato HTML. Para ello, se mostrará paso a paso cómo crear un reporte reproducible, cómo parametrizar su contenido, cómo editar su apariencia y cómo publicarlo utilizando GitHub Pages y Netlify.\nPara poder seguir sin problema las actividades del tutorial, es necesario tener algún grado de experiencia con el operador “pipe” (en cualquiera de sus dos versiones: %&gt;% o |&gt;), con las funciones principales del paquete dplyr (como filter, summarize y group_by) y con el paquete ggplot2 (por ejemplo, tener una idea general de qué hacen las funciones geom_* o saber cómo modificar la escala del eje “y” de un gráfico). Para quienes tengan interés en la publicación de un reporte utilizando el servicio GitHub Pages, es necesario tener al menos un manejo inicial de git (saber cómo hacer commits y enviar cambios a un repositorio personal)."
   },
   {
     "objectID": "cronograma/tutoriales/workshops-pt.html#introducción-a-shiny",
