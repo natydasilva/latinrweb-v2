@@ -14,6 +14,48 @@
     "text": "En esta sexta edición de la conferencia contaremos con la presencia de cuatro oradores que son referentes en el área de programación con R, con experiencia tanto en el ámbito académico como en la industria y en organizaciones de la sociedad civil. Se destacan por su compromiso con la colaboración y la promoción de ciencia, datos y sofware abiertos.\n\n\n\n\nDra. Dianne Cook\n\n\n\n\n\nDianne Cook es profesora de Business Analytics en Monash University. Sus principales temas de interés son la estadística computacional y la visualización estadística, particularmente la visualización de datos de alta dimensionalidad. Es miembro del R Foundation y editora del R Journal (http://www.dicook.org).\n\n\n\n\n\nDra. Hannah Frick\n\n\n\n\n\nHannah Frick es co-fundadora de R Ladies Global, trabaja como ingeniera de software en Posit (ex RStudio) en el área de modelado estadístico. Colabora en el desarrollo de tidymodels, el conjunto de paquetes para modelado y aprendizaje estadístico inspirado en los principios del Tidyverse (https://www.frick.ws).\n\n\n\n\n\nDr. Fabrizio Scrollini\n\n\n\n\n\nFabrizio Scrollini es el Director para América Latina y el Caribe del Equipo Humanitario de OpenStreetMap. Cofundó la Iniciativa Latinoamericana por los Datos Abiertos (ILDA) y hoy preside su directorio. Ha explorado el uso de datos y el machine learning (IA) para el desarrollo, la transparencia y la innovación en América Latina, con particular foco en el uso de datos para el bien público. En este rol Fabrizio ha colaborado con sociedad, gobierno y academia para desarrollar iniciativas e investigaciones relevantes al contexto latinoamericano. Es uno de los asesores de la Carta Internacional de los Datos Abiertos y activo contribuyente a los temas de gobierno abierto en nuestra región.\n\n\n\n\n\nDr. Max Kuhn\n\n\n\n\n\nMax Kuhn trabaja como ingeniero de software en Posit (ex RStudio) liderando el desarrollo de software en el área del modelado estadístico. Anteriormente fue Director del área de estadística no clínica de Pfizer Global. Es autor de numerosos paquetes de R con foco en aprendizaje estadístico e investigación reproducible (https://www.rstudio.com/authors/max-kuhn/)."
   },
   {
+    "objectID": "cronograma/tutoriales/workshops.html",
+    "href": "cronograma/tutoriales/workshops.html",
+    "title": "Workshops",
+    "section": "",
+    "text": "Instructors: Dra. Hannah Frick & Dr. Max Kuhn\nDate and time: 18/10 - 9:00 - 12:30 & 13:30 - 17:00\nLanguage: English\nDescription: This workshop provides an introduction to machine learning with R using the tidymodels framework, a collection of packages for modeling and machine learning using tidyverse principles. We will build, evaluate, and compare predictive models. Along the way, we’ll learn about key concepts in machine learning including overfitting and resampling. Learners will gain knowledge about good predictive modeling practices, as well as hands-on experience using tidymodels packages like parsnip, rsample, yardstick, and workflows. Is this workshop for me? This course assumes intermediate R knowledge. This workshop is for you if: * You can use the magrittr pipe %&gt;% and/or native pipe |&gt; * You are familiar with functions from dplyr, tidyr, and ggplot2 * You can read data into R, transform and reshape data, and make a wide variety of graphs We expect participants to have some exposure to basic statistical concepts, but NOT intermediate or expert familiarity with modeling or machine learning."
+  },
+  {
+    "objectID": "cronograma/tutoriales/workshops.html#introduction-to-machine-learning-with-tidymodels",
+    "href": "cronograma/tutoriales/workshops.html#introduction-to-machine-learning-with-tidymodels",
+    "title": "Workshops",
+    "section": "",
+    "text": "Instructors: Dra. Hannah Frick & Dr. Max Kuhn\nDate and time: 18/10 - 9:00 - 12:30 & 13:30 - 17:00\nLanguage: English\nDescription: This workshop provides an introduction to machine learning with R using the tidymodels framework, a collection of packages for modeling and machine learning using tidyverse principles. We will build, evaluate, and compare predictive models. Along the way, we’ll learn about key concepts in machine learning including overfitting and resampling. Learners will gain knowledge about good predictive modeling practices, as well as hands-on experience using tidymodels packages like parsnip, rsample, yardstick, and workflows. Is this workshop for me? This course assumes intermediate R knowledge. This workshop is for you if: * You can use the magrittr pipe %&gt;% and/or native pipe |&gt; * You are familiar with functions from dplyr, tidyr, and ggplot2 * You can read data into R, transform and reshape data, and make a wide variety of graphs We expect participants to have some exposure to basic statistical concepts, but NOT intermediate or expert familiarity with modeling or machine learning."
+  },
+  {
+    "objectID": "cronograma/tutoriales/workshops.html#using-and-contributing-to-the-data.table-package-for-efficient-big-data-analysis",
+    "href": "cronograma/tutoriales/workshops.html#using-and-contributing-to-the-data.table-package-for-efficient-big-data-analysis",
+    "title": "Workshops",
+    "section": "Using and contributing to the data.table package for efficient big data analysis",
+    "text": "Using and contributing to the data.table package for efficient big data analysis\nInstructor: Toby Dylan Hocking\nDate and time: 18/10 - 9:00-12:30\nLanguage: English\nDescription: data.table is one of the most efficient open-source in-memory data manipulation packages available today. First released to CRAN by Matt Dowle in 2006, it continues to grow in popularity, and now over 1400 other CRAN packages depend on data.table. This three hour tutorial will start with data reading from CSV, discuss basic and advanced data manipulation topics, and finally will end with a discussion about how you can contribute to data.table. In each part of the tutorial, you will be asked to solve a few exercises, to practice each new concept.\nOutline: - Efficiently reading CSV files into R: fread - Introducing general form of a data.table query - DT[i, j, by], or for those familiar with SQL: DT[where, select|update, group by] - Subsets and joins - exploring similarities between subsets and joins is key to understanding how data.table works. - Fast and flexible grouped aggregations and updates - quick look at other new and useful features in the recent releases, including CSV file writer (fwrite) and rolling/non-equi joins. - Using data.table in your own package that you want to put on CRAN. - Contributing to data.table via issues, pull requests, translations, travel awards, community governance.\nBackground knowledge: Familiarity with base R and/or SQL is useful but is not absolutely essential.\nRequirements: You will need your laptop with the latest version of R and latest stable (CRAN) version of data.table already installed.\nInstructor biography: Toby Dylan Hocking is a contributor to data.table, professor of computer science at Northern Arizona University, and principal investigator for a National Science Foundation funded project about expanding the open-source ecosystem around data.table.\nPackage Authors: Matt Dowle, Arun Srinivasan, and many other contributors, including myself.\nLink: http://r-datatable.com"
+  },
+  {
+    "objectID": "cronograma/tutoriales/workshops.html#creating-data-plots-for-effective-decision-making-using-statistical-inference-with-r",
+    "href": "cronograma/tutoriales/workshops.html#creating-data-plots-for-effective-decision-making-using-statistical-inference-with-r",
+    "title": "Workshops",
+    "section": "Creating data plots for effective decision-making using statistical inference with R",
+    "text": "Creating data plots for effective decision-making using statistical inference with R\nInstructor: Dra. Dianne Cook\nDate and time: 18/10 - 13:30-17:00\nLanguage: English\nDescription: To be annouced"
+  },
+  {
+    "objectID": "cronograma/tutoriales/workshops.html#creación-de-reportes-reproducibles-con-quarto",
+    "href": "cronograma/tutoriales/workshops.html#creación-de-reportes-reproducibles-con-quarto",
+    "title": "Workshops",
+    "section": "Creación de reportes reproducibles con Quarto",
+    "text": "Creación de reportes reproducibles con Quarto\nInstructor: Riva Quiroga\nDate and time: 18/10 - 13:30 - 17:00\nLanguage: Español\nDescription: To be annouced"
+  },
+  {
+    "objectID": "cronograma/tutoriales/workshops.html#introducción-a-shiny",
+    "href": "cronograma/tutoriales/workshops.html#introducción-a-shiny",
+    "title": "Workshops",
+    "section": "Introducción a Shiny",
+    "text": "Introducción a Shiny\nInstructor: Federico Rivadeneira\nDate and time: 18/10 - 9:00 - 12:30\nLanguage: Español\nDescription: To be annouced"
+  },
+  {
     "objectID": "blog/en/2019-12-16-call-for-papers.html",
     "href": "blog/en/2019-12-16-call-for-papers.html",
     "title": "Call for Papers",
@@ -389,42 +431,84 @@
     "href": "cronograma/tutoriales/index.html",
     "title": "Tutoriales",
     "section": "",
-    "text": "Instructors: Dra. Hannah Frick & Dr. Max Kuhn\nDate and time: 18/10 - 9:00 - 12:30 & 13:30 - 17:00\nLanguage: English\nDescription: This workshop provides an introduction to machine learning with R using the tidymodels framework, a collection of packages for modeling and machine learning using tidyverse principles. We will build, evaluate, and compare predictive models. Along the way, we’ll learn about key concepts in machine learning including overfitting and resampling. Learners will gain knowledge about good predictive modeling practices, as well as hands-on experience using tidymodels packages like parsnip, rsample, yardstick, and workflows. Is this workshop for me? This course assumes intermediate R knowledge. This workshop is for you if: * You can use the magrittr pipe %&gt;% and/or native pipe |&gt; * You are familiar with functions from dplyr, tidyr, and ggplot2 * You can read data into R, transform and reshape data, and make a wide variety of graphs We expect participants to have some exposure to basic statistical concepts, but NOT intermediate or expert familiarity with modeling or machine learning."
+    "text": "Instructores: Dra. Hannah Frick & Dr. Max Kuhn\nFecha y hora: 18/10 - 9:00 - 12:30 & 13:30 - 17:00\nIdioma: English\nDescripción: This workshop provides an introduction to machine learning with R using the tidymodels framework, a collection of packages for modeling and machine learning using tidyverse principles. We will build, evaluate, and compare predictive models. Along the way, we’ll learn about key concepts in machine learning including overfitting and resampling. Learners will gain knowledge about good predictive modeling practices, as well as hands-on experience using tidymodels packages like parsnip, rsample, yardstick, and workflows. Is this workshop for me? This course assumes intermediate R knowledge. This workshop is for you if: * You can use the magrittr pipe %&gt;% and/or native pipe |&gt; * You are familiar with functions from dplyr, tidyr, and ggplot2 * You can read data into R, transform and reshape data, and make a wide variety of graphs We expect participants to have some exposure to basic statistical concepts, but NOT intermediate or expert familiarity with modeling or machine learning."
   },
   {
     "objectID": "cronograma/tutoriales/index.html#introduction-to-machine-learning-with-tidymodels",
     "href": "cronograma/tutoriales/index.html#introduction-to-machine-learning-with-tidymodels",
     "title": "Tutoriales",
     "section": "",
-    "text": "Instructors: Dra. Hannah Frick & Dr. Max Kuhn\nDate and time: 18/10 - 9:00 - 12:30 & 13:30 - 17:00\nLanguage: English\nDescription: This workshop provides an introduction to machine learning with R using the tidymodels framework, a collection of packages for modeling and machine learning using tidyverse principles. We will build, evaluate, and compare predictive models. Along the way, we’ll learn about key concepts in machine learning including overfitting and resampling. Learners will gain knowledge about good predictive modeling practices, as well as hands-on experience using tidymodels packages like parsnip, rsample, yardstick, and workflows. Is this workshop for me? This course assumes intermediate R knowledge. This workshop is for you if: * You can use the magrittr pipe %&gt;% and/or native pipe |&gt; * You are familiar with functions from dplyr, tidyr, and ggplot2 * You can read data into R, transform and reshape data, and make a wide variety of graphs We expect participants to have some exposure to basic statistical concepts, but NOT intermediate or expert familiarity with modeling or machine learning."
+    "text": "Instructores: Dra. Hannah Frick & Dr. Max Kuhn\nFecha y hora: 18/10 - 9:00 - 12:30 & 13:30 - 17:00\nIdioma: English\nDescripción: This workshop provides an introduction to machine learning with R using the tidymodels framework, a collection of packages for modeling and machine learning using tidyverse principles. We will build, evaluate, and compare predictive models. Along the way, we’ll learn about key concepts in machine learning including overfitting and resampling. Learners will gain knowledge about good predictive modeling practices, as well as hands-on experience using tidymodels packages like parsnip, rsample, yardstick, and workflows. Is this workshop for me? This course assumes intermediate R knowledge. This workshop is for you if: * You can use the magrittr pipe %&gt;% and/or native pipe |&gt; * You are familiar with functions from dplyr, tidyr, and ggplot2 * You can read data into R, transform and reshape data, and make a wide variety of graphs We expect participants to have some exposure to basic statistical concepts, but NOT intermediate or expert familiarity with modeling or machine learning."
   },
   {
     "objectID": "cronograma/tutoriales/index.html#using-and-contributing-to-the-data.table-package-for-efficient-big-data-analysis",
     "href": "cronograma/tutoriales/index.html#using-and-contributing-to-the-data.table-package-for-efficient-big-data-analysis",
     "title": "Tutoriales",
     "section": "Using and contributing to the data.table package for efficient big data analysis",
-    "text": "Using and contributing to the data.table package for efficient big data analysis\nInstructor: Toby Dylan Hocking\nDate and time: 18/10 - 9:00-12:30\nLanguage: English\nDescription: data.table is one of the most efficient open-source in-memory data manipulation packages available today. First released to CRAN by Matt Dowle in 2006, it continues to grow in popularity, and now over 1400 other CRAN packages depend on data.table. This three hour tutorial will start with data reading from CSV, discuss basic and advanced data manipulation topics, and finally will end with a discussion about how you can contribute to data.table. In each part of the tutorial, you will be asked to solve a few exercises, to practice each new concept.\nOutline: - Efficiently reading CSV files into R: fread - Introducing general form of a data.table query - DT[i, j, by], or for those familiar with SQL: DT[where, select|update, group by] - Subsets and joins - exploring similarities between subsets and joins is key to understanding how data.table works. - Fast and flexible grouped aggregations and updates - quick look at other new and useful features in the recent releases, including CSV file writer (fwrite) and rolling/non-equi joins. - Using data.table in your own package that you want to put on CRAN. - Contributing to data.table via issues, pull requests, translations, travel awards, community governance.\nBackground knowledge: Familiarity with base R and/or SQL is useful but is not absolutely essential.\nRequirements: You will need your laptop with the latest version of R and latest stable (CRAN) version of data.table already installed.\nInstructor biography: Toby Dylan Hocking is a contributor to data.table, professor of computer science at Northern Arizona University, and principal investigator for a National Science Foundation funded project about expanding the open-source ecosystem around data.table.\nPackage Authors: Matt Dowle, Arun Srinivasan, and many other contributors, including myself.\nLink: http://r-datatable.com"
+    "text": "Using and contributing to the data.table package for efficient big data analysis\nInstructor: Toby Dylan Hocking\nFecha y hora: 18/10 - 9:00-12:30\nIdioma: English\nDescripción: data.table is one of the most efficient open-source in-memory data manipulation packages available today. First released to CRAN by Matt Dowle in 2006, it continues to grow in popularity, and now over 1400 other CRAN packages depend on data.table. This three hour tutorial will start with data reading from CSV, discuss basic and advanced data manipulation topics, and finally will end with a discussion about how you can contribute to data.table. In each part of the tutorial, you will be asked to solve a few exercises, to practice each new concept.\nOutline: - Efficiently reading CSV files into R: fread - Introducing general form of a data.table query - DT[i, j, by], or for those familiar with SQL: DT[where, select|update, group by] - Subsets and joins - exploring similarities between subsets and joins is key to understanding how data.table works. - Fast and flexible grouped aggregations and updates - quick look at other new and useful features in the recent releases, including CSV file writer (fwrite) and rolling/non-equi joins. - Using data.table in your own package that you want to put on CRAN. - Contributing to data.table via issues, pull requests, translations, travel awards, community governance.\nBackground knowledge: Familiarity with base R and/or SQL is useful but is not absolutely essential.\nRequirements: You will need your laptop with the latest version of R and latest stable (CRAN) version of data.table already installed.\nInstructor biography: Toby Dylan Hocking is a contributor to data.table, professor of computer science at Northern Arizona University, and principal investigator for a National Science Foundation funded project about expanding the open-source ecosystem around data.table.\nPackage Authors: Matt Dowle, Arun Srinivasan, and many other contributors, including myself.\nLink: http://r-datatable.com"
   },
   {
     "objectID": "cronograma/tutoriales/index.html#creating-data-plots-for-effective-decision-making-using-statistical-inference-with-r",
     "href": "cronograma/tutoriales/index.html#creating-data-plots-for-effective-decision-making-using-statistical-inference-with-r",
     "title": "Tutoriales",
     "section": "Creating data plots for effective decision-making using statistical inference with R",
-    "text": "Creating data plots for effective decision-making using statistical inference with R\nInstructor: Dra. Dianne Cook\nDate and time: 18/10 - 13:30-17:00\nLanguage: English\nDescription: To be annouced"
+    "text": "Creating data plots for effective decision-making using statistical inference with R\nInstructora: Dra. Dianne Cook\nFecha y hora: 18/10 - 13:30-17:00\nIdioma: English\nDescripción: En breve"
   },
   {
     "objectID": "cronograma/tutoriales/index.html#creación-de-reportes-reproducibles-con-quarto",
     "href": "cronograma/tutoriales/index.html#creación-de-reportes-reproducibles-con-quarto",
     "title": "Tutoriales",
     "section": "Creación de reportes reproducibles con Quarto",
-    "text": "Creación de reportes reproducibles con Quarto\nInstructor: Riva Quiroga\nDate and time: 18/10 - 13:30 - 17:00\nLanguage: Español\nDescription: To be annouced"
+    "text": "Creación de reportes reproducibles con Quarto\nInstructora: Riva Quiroga\nFecha y hora: 18/10 - 13:30 - 17:00\nIdioma: Español\nDescripción: En breve"
   },
   {
     "objectID": "cronograma/tutoriales/index.html#introducción-a-shiny",
     "href": "cronograma/tutoriales/index.html#introducción-a-shiny",
     "title": "Tutoriales",
     "section": "Introducción a Shiny",
-    "text": "Introducción a Shiny\nInstructor: Federico Rivadeneira\nDate and time: 18/10 - 9:00 - 12:30\nLanguage: Español\nDescription: To be annouced"
+    "text": "Introducción a Shiny\nInstructor: Federico Rivadeneira\nFecha y hora: 18/10 - 9:00 - 12:30\nIdioma: Español\nDescripción: En breve"
+  },
+  {
+    "objectID": "cronograma/tutoriales/workshops-pt.html",
+    "href": "cronograma/tutoriales/workshops-pt.html",
+    "title": "Workshops",
+    "section": "",
+    "text": "Instrutores: Dra. Hannah Frick & Dr. Max Kuhn\nData e horário: 18/10 - 9:00 - 12:30 & 13:30 - 17:00\nIdioma: English\nDescrição: This workshop provides an introduction to machine learning with R using the tidymodels framework, a collection of packages for modeling and machine learning using tidyverse principles. We will build, evaluate, and compare predictive models. Along the way, we’ll learn about key concepts in machine learning including overfitting and resampling. Learners will gain knowledge about good predictive modeling practices, as well as hands-on experience using tidymodels packages like parsnip, rsample, yardstick, and workflows. Is this workshop for me? This course assumes intermediate R knowledge. This workshop is for you if: * You can use the magrittr pipe %&gt;% and/or native pipe |&gt; * You are familiar with functions from dplyr, tidyr, and ggplot2 * You can read data into R, transform and reshape data, and make a wide variety of graphs We expect participants to have some exposure to basic statistical concepts, but NOT intermediate or expert familiarity with modeling or machine learning."
+  },
+  {
+    "objectID": "cronograma/tutoriales/workshops-pt.html#introduction-to-machine-learning-with-tidymodels",
+    "href": "cronograma/tutoriales/workshops-pt.html#introduction-to-machine-learning-with-tidymodels",
+    "title": "Workshops",
+    "section": "",
+    "text": "Instrutores: Dra. Hannah Frick & Dr. Max Kuhn\nData e horário: 18/10 - 9:00 - 12:30 & 13:30 - 17:00\nIdioma: English\nDescrição: This workshop provides an introduction to machine learning with R using the tidymodels framework, a collection of packages for modeling and machine learning using tidyverse principles. We will build, evaluate, and compare predictive models. Along the way, we’ll learn about key concepts in machine learning including overfitting and resampling. Learners will gain knowledge about good predictive modeling practices, as well as hands-on experience using tidymodels packages like parsnip, rsample, yardstick, and workflows. Is this workshop for me? This course assumes intermediate R knowledge. This workshop is for you if: * You can use the magrittr pipe %&gt;% and/or native pipe |&gt; * You are familiar with functions from dplyr, tidyr, and ggplot2 * You can read data into R, transform and reshape data, and make a wide variety of graphs We expect participants to have some exposure to basic statistical concepts, but NOT intermediate or expert familiarity with modeling or machine learning."
+  },
+  {
+    "objectID": "cronograma/tutoriales/workshops-pt.html#using-and-contributing-to-the-data.table-package-for-efficient-big-data-analysis",
+    "href": "cronograma/tutoriales/workshops-pt.html#using-and-contributing-to-the-data.table-package-for-efficient-big-data-analysis",
+    "title": "Workshops",
+    "section": "Using and contributing to the data.table package for efficient big data analysis",
+    "text": "Using and contributing to the data.table package for efficient big data analysis\nInstrutor: Toby Dylan Hocking\nData e horário: 18/10 - 9:00-12:30\nIdioma: English\nDescrição: data.table is one of the most efficient open-source in-memory data manipulation packages available today. First released to CRAN by Matt Dowle in 2006, it continues to grow in popularity, and now over 1400 other CRAN packages depend on data.table. This three hour tutorial will start with data reading from CSV, discuss basic and advanced data manipulation topics, and finally will end with a discussion about how you can contribute to data.table. In each part of the tutorial, you will be asked to solve a few exercises, to practice each new concept.\nOutline: - Efficiently reading CSV files into R: fread - Introducing general form of a data.table query - DT[i, j, by], or for those familiar with SQL: DT[where, select|update, group by] - Subsets and joins - exploring similarities between subsets and joins is key to understanding how data.table works. - Fast and flexible grouped aggregations and updates - quick look at other new and useful features in the recent releases, including CSV file writer (fwrite) and rolling/non-equi joins. - Using data.table in your own package that you want to put on CRAN. - Contributing to data.table via issues, pull requests, translations, travel awards, community governance.\nBackground knowledge: Familiarity with base R and/or SQL is useful but is not absolutely essential.\nRequirements: You will need your laptop with the latest version of R and latest stable (CRAN) version of data.table already installed.\nInstructor biography: Toby Dylan Hocking is a contributor to data.table, professor of computer science at Northern Arizona University, and principal investigator for a National Science Foundation funded project about expanding the open-source ecosystem around data.table.\nPackage Authors: Matt Dowle, Arun Srinivasan, and many other contributors, including myself.\nLink: http://r-datatable.com"
+  },
+  {
+    "objectID": "cronograma/tutoriales/workshops-pt.html#creating-data-plots-for-effective-decision-making-using-statistical-inference-with-r",
+    "href": "cronograma/tutoriales/workshops-pt.html#creating-data-plots-for-effective-decision-making-using-statistical-inference-with-r",
+    "title": "Workshops",
+    "section": "Creating data plots for effective decision-making using statistical inference with R",
+    "text": "Creating data plots for effective decision-making using statistical inference with R\nInstrutora: Dra. Dianne Cook\nData e horário: 18/10 - 13:30-17:00\nLanguage: English\nDescrição: To be annouced"
+  },
+  {
+    "objectID": "cronograma/tutoriales/workshops-pt.html#creación-de-reportes-reproducibles-con-quarto",
+    "href": "cronograma/tutoriales/workshops-pt.html#creación-de-reportes-reproducibles-con-quarto",
+    "title": "Workshops",
+    "section": "Creación de reportes reproducibles con Quarto",
+    "text": "Creación de reportes reproducibles con Quarto\nInstrutora: Riva Quiroga\nData e horário: 18/10 - 13:30 - 17:00\nIdioma: Español\nDescrição: To be annouced"
+  },
+  {
+    "objectID": "cronograma/tutoriales/workshops-pt.html#introducción-a-shiny",
+    "href": "cronograma/tutoriales/workshops-pt.html#introducción-a-shiny",
+    "title": "Workshops",
+    "section": "Introducción a Shiny",
+    "text": "Introducción a Shiny\nInstrutor: Federico Rivadeneira\nData e horário: 18/10 - 9:00 - 12:30\nIdioma: Español\nDescrição: To be annouced"
   },
   {
     "objectID": "cronograma/conferencistas/keynotes.html",
