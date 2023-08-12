@@ -231,6 +231,13 @@
     "text": "Introducción a Shiny - Buenas prácticas en un entorno de producción\nInstructors: Agustin Perez Santangelo, Oriol Senan y Federico Rivadeneira\nDate and time: 18/10 - 9:00 - 12:30\nLanguage: Español\nDescription: El tutorial consistirá en la introducción de conceptos básicos haciendo foco en las buenas prácticas de desarrollo. El mismo constará de tres partes:\n\nEstructura inicial y básica de un proyecto junto a las herramientas que podemos utilizar para asistirnos en esta tarea.\nModularización y buenas prácticas de desarrollo haciendo hincapié en conceptos de desarrollo con ejemplos.\nOptimización y performance de una aplicación introduciendo paquetes y buenas prácticas.\nPRE-REQUISITOS:\n\nConocimientos básicos de R / Shiny\n\nPara la parte práctica\nLaptop con RStudio, usando R &gt; 4.2\nClonar https://github.com/Appsilon/latin-r-2023 y seguir las instrucciones del README"
   },
   {
+    "objectID": "cronograma/lugar/index.html",
+    "href": "cronograma/lugar/index.html",
+    "title": "Lugar",
+    "section": "",
+    "text": "Este año la conferencia se realizará en la Facultad de Ciencias Económicas y de Administración de la Universidad de la República (FCEA-UDELAR), ubicada en Av. Gonzalo Ramírez 1926, Montevideo, Uruguay.\n\n\n\n\nPara algunas actividades también utilizaremos espacios del Aulario del Área Social y Artística, ubicado justo cruzando la calle desde la Facultad."
+  },
+  {
     "objectID": "index.html#conferência-latino-americana-sobre-o-uso-de-r-em-pesquisa-e-desenvolvimento",
     "href": "index.html#conferência-latino-americana-sobre-o-uso-de-r-em-pesquisa-e-desenvolvimento",
     "title": "LatinR 2023",
@@ -336,11 +343,18 @@
     "text": "Todos em nossa conferência devem estar de acordo com o seguinte código de conduta. Os organizadores farão cumprir este código durante todo o evento. Esperamos a cooperação de todos os participantes para ajudar a garantir um ambiente seguro para todos.\n\nVersão curta\nEsperamos que LatinR seja uma conferência livre de assédio para todos, independentemente de sexo, identidade, gênero, idade, orientação sexual, deficiência, aparência física, tamanho corporal, raça, etnia, religião (ou falta dela), ideologia ou opções tecnológicas. Não toleramos o assédio dos participantes da conferência de nenhuma forma. Linguagem e imagens sexuais não são apropriadas para nenhum lugar da conferência, incluídas conversas, workshops, festas, redes sociais e outros meios de comunicação online. Os participantes da conferência que violarem essas regras podeser ser sancionados ou expulsos da conferência sem um reembolso a critério dos organizadores da conferência.\n\n\nVersão menos curta\nO assédio inclui comentários verbais ofensivos relacionados ao gênero, identidade e expressão de gênero, idade, orientação sexual, deficiência, aparência física, tamanho corporal, raça, origem étnica, religião, ideologia, escolha de tecnologia, imagens sexuais em espaços públicos, intimidação deliberada, assédio, perseguição, fotográfico ou por gravação, interrupção contínua de conversas ou outros eventos, contato físico inapropriado e atenção sexual indesejada.\nOs participantes que forem solicitados para interromper qualquer comportamento de assédio deverão cumprí-lo imediatamente.\nSe um participante se envolver em um comportamento de assédio, os organizadores da conferência podem tomar as medidas que considerarem apropriadas, tais como uma advertência ou a expulsão da conferência sem reembolso.\nSe você está sendo assediado, observar que alguém está sendo assediado ou qualquer outra preocupação, por favor entre em contato com um membro da equipe da conferência imediatamente. A equipe da conferência pode ser identificada por estarem usando crachá.\nA equipe da conferência ajudará aos participantes a entrar em contato com a segurança do lugar, fornecer escoltas ou ajudar aqueles que sofrem assédio a se sentirem seguros durante a conferência. Agradecemos a sua ajuda para as LatinR.\nEsperamos que os participantes sigam estas regras tanto durante as LatinR como em eventos sociais relacionados com as mesmas.\n\n\nPrecisa de ajuda?\nVocê pode entrar em contato com a equipe organizadora ou escrever a latinrconf@gmail.com.\nAdaptado de http://confcodeofconduct.com."
   },
   {
-    "objectID": "cronograma/lugar/index.html",
-    "href": "cronograma/lugar/index.html",
-    "title": "Lugar",
+    "objectID": "cronograma/lugar/location.html",
+    "href": "cronograma/lugar/location.html",
+    "title": "Location",
     "section": "",
-    "text": "Este año la conferencia se realizará en la Facultad de Ciencias Económicas y de Administración de la Universidad de la República (FCEA-UDELAR), ubicada en Av. Gonzalo Ramírez 1926, Montevideo, Uruguay.\n\n\n\n\nPara algunas actividades también utilizaremos espacios del Aulario del Área Social y Artística, ubicado justo cruzando la calle desde la Facultad."
+    "text": "This year the conference will be held at the Faculty of Economic Sciences and Administration of the University of the Republic (FCEA-UDELAR), located at Av. Gonzalo Ramírez 1926, Montevideo, Uruguay.\n\n\n\n\nFor some activities we will also use spaces from the sLecture Room of the Social and Artistic Area, located just across the street from the Faculty."
+  },
+  {
+    "objectID": "cronograma/lugar/lugar-pt.html",
+    "href": "cronograma/lugar/lugar-pt.html",
+    "title": "Localização",
+    "section": "",
+    "text": "Neste ano, a conferência será realizada na Faculdade de Ciências Econômicas e de Administração da Universidade da República (FCEA-UDELAR), localizada na en Av. Gonzalo Ramírez 1926, Montevidéu, Uruguai.\n\n\n\n\nPara algumas atividades também utilizaremos espaços da Sala de Aulas da Área Social e Artística, localizada em frente à Faculdade."
   },
   {
     "objectID": "cronograma/tutoriales/index.html",
